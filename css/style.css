@@ -63,7 +63,11 @@ a.active {
     background: #fed136;
 }
 
-
+@media (min-width: 768px) {
+    section {
+        padding: 150px 0;
+    }
+}
 
 section {
     padding: 35px 0 60px;
@@ -86,9 +90,7 @@ section {
 /*--------------------
 2. Navigation
 --------------------*/
-.logo {
-    width: 60%;
-}
+
 
 .navbar-default {
     background-color: #F1F1F1;
@@ -170,7 +172,8 @@ section {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
-        transition: all .3s padding: 0px;
+        transition: all .3s; 
+        padding: 0px;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -719,18 +722,14 @@ footer p a span {
     }
 }
 
-@media (min-width: 768px) {
-    section {
-        padding: 150px 0;
-    }
-}
 
-@media (max-width: 990px) {
+
+/* @media (max-width: 990px) {
     section {
         padding: 150px 0;
     }
     .logo {
-        width: 50%;
+        width: 45%;
         padding-top: 12px; 
     }
-}
+} */
